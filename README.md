@@ -50,4 +50,4 @@ pip install -r requirements.txt
 3. Run all cells in the notebook to get:
    - Georeferenced mask.tif with values:  
      `0 = clear`, `1 = cloud`, `2 = shadow`
-   - Optional: cloud and shadow shapefiles (GeoJSON/SHP)
+   - Optional: cloud and shadow shapefiles
