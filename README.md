@@ -1,6 +1,6 @@
 # Cloud and Shadow Segmentation using Deep Learning
 
-This project implements a two-stage deep learning pipeline to segment **clouds** and **shadows** from satellite imagery using TOA reflectance and metadata. The models are trained on LISS-IV and Landsat-8 data.
+This project implements a two-stage deep learning pipeline to segment **clouds** and **shadows** from satellite imagery using TOA reflectance and metadata. The models are trained on LISS-IV data.
 
 ---
 
