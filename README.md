@@ -12,7 +12,7 @@ This project implements a two-stage deep learning pipeline to segment **clouds**
 ├── masks/&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Predicted masks on test dataset  
 ├── Report.pdf&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;# Methodology and analysis  
 ├── NRCC251050_Inference_Training_Results.csv&nbsp;&nbsp;# Training log (losses, metrics)  
-├── Earth_Sun_Distance.xlsx &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;# Earth-Sun distance values for TOA reflectance computation   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+├── Earth_Sun_Distance.xlsx &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;# Earth-Sun distance values for TOA reflectance computation   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 └── Training_labeled_data/&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Dataset used to train models 
 
 ---
