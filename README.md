@@ -6,14 +6,14 @@ This project implements a two-stage deep learning pipeline to segment **clouds**
 
 ## 📂 Project Structure
 
-├── `inference_code.ipynb`&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;# Main inference pipeline  
-├── `Requirements.txt`&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;# Dependencies  
-├── `Training_Files/`&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Labelling of cloud mask and training scripts for ResUNet and U-Net  
-├── `masks/`&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Predicted masks on test dataset  
-├── `Report.pdf`&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;# Methodology and analysis  
-├── `NRCC251050_Inference_Training_Results.csv`&nbsp;&nbsp;# Training log (losses, metrics)  
-├── `Earth_Sun_Distance.xlsx` &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;#Sun-Earth distance stacked in a proper manner(required for TOA calculations)
-└── `Training_labeled_data/`&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Dataset used to train models  
+├── inference_code.ipynb                 # Main inference pipeline  
+├── Requirements.txt                     # List of required dependencies  
+├── Training_Files/                      # Cloud mask labeling and training scripts for ResUNet and U-Net  
+├── masks/                               # Predicted cloud and shadow masks on test dataset  
+├── Report.pdf                           # Detailed methodology, model architecture, and analysis  
+├── NRCC251050_Inference_Training_Results.csv  # Training log (loss, accuracy, IoU, etc.)  
+├── Earth_Sun_Distance.xlsx              # Earth-Sun distance values for TOA reflectance computation  
+└── Training_labeled_data/               # Training dataset (input patches and masks)  
 
 ---
 
