@@ -33,6 +33,8 @@ You can download the trained models (ResUNet for cloud segmentation and U-Net fo
 
 ## 🛠️ Requirements
 
+Create a new python environment(python=3.10). Navigate to the downloaded folder where requirements.txt is present.
+
 Install dependencies using:
 
 ```bash
